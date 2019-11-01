@@ -3,7 +3,7 @@ cd src || exit 1
 
 make clean
 ./config $C shared
-cat ../*.patch | patch -q -p1
+cat ../*.patch | patch -N -p1
 make
 
 d=../../../bin/$P
@@ -13,3 +13,4 @@ cp -f libssl.so.1.1       $d/libssl.so
 cp -f libssl.a            $d/
 
 make clean
+rm src/Makefile src/configdata.pm
