@@ -1,4 +1,1 @@
-openssl 1.1.1d from https://openssl.org/source (Apache License)
-
-
-Patched for compatibility with OpenResty.
+openssl 1.0.2e from https://indy.fulgan.com/SSL/ (BSD License)
